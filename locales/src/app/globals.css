@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand: #C84B31;
+  --color-surface: #FDFAF5;
+  --color-text: #2C3E50;
+  --color-muted: #8B9BAD;
+  --color-border: #E8DCC8;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
